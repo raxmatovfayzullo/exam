@@ -1,0 +1,30 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
+  .box {
+    cursor: pointer;
+    img {
+      width: 300px;
+      height: 176px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .bottomImg {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p.title {
+        font-weight: 400;
+        font-size: 20px;
+      }
+      p.price {
+        font-size: 20px;
+        font-weight: 500;
+        color: #ab7a5f;
+      }
+    }
+  }
+}
